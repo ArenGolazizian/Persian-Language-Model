@@ -79,9 +79,11 @@ The RNN model achieved an initial training loss of ~9.26 and a final loss of ~4.
 Below are the loss curves for both models, showing the progression of training and validation loss over epochs:
 
 - **RNN Model Loss Curve**:
+
     ![RNN Loss Curve](results/RNN.png)
 
 - **Transformer Model Loss Curve**:
+
     ![Transformer Loss Curve](results/transformer.png)
 
 ### Analysis
