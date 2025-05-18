@@ -1,0 +1,80 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Model files and datasets
+*.pth
+*.pt
+*.bin
+*.h5
+*.keras
+*.hdf5
+*.model
+*.weights
+*.pb
+processed_text.txt
+Persian-WikiText-1.txt
+Persian-WikiText-1.txt.zip
+Persian_Stop_Words.txt
+trained_bpe_tokenizer.json
+
+# Environment and IDE
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.idea/
+.vscode/
+*.swp
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Kaggle credentials
+kaggle.json
+
+# Log files and results
+logs/
+tensorboard/
+wandb/
+runs/
+lightning_logs/
+
+# Images generated (except in results folder)
+*.png
+*.jpg
+*.jpeg
+*.gif
+!results/*.png
+!results/*.jpg
