@@ -1,4 +1,4 @@
-# Persian Language Model
+# Persian Language Model with RNN and Transformer
 
 ## Project Overview
 The goal of this project is to develop and evaluate deep learning models for Persian language understanding and generation. The dataset includes the Persian Wikipedia text corpus and a collection of Persian stop words. Two models are implemented: an RNN-based language model and a Transformer-based language model, with a comparative analysis of their performance.
