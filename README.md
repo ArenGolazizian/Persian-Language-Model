@@ -8,17 +8,17 @@ Standard NLP evaluation metrics are used:
 
 - **Cross-Entropy Loss** measures the difference between predicted token probability distributions and actual next tokens. It is defined as:
 
-    ```math
-    \text{CrossEntropyLoss} = -\frac{1}{N} \sum_{i=1}^{N} \sum_{j=1}^{V} y_{i,j} \log(\hat{y}_{i,j})
-    ```
+```math
+\text{CrossEntropyLoss} = -\frac{1}{N} \sum_{i=1}^{N} \sum_{j=1}^{V} y_{i,j} \log(\hat{y}_{i,j})
+```
 
-    where \(N\) is the number of samples, \(V\) is the vocabulary size, $y_{i,j}$ is the true probability of token \(j\) for sample \(i\), and $\hat{y}_{i,j}$ is the predicted probability.
+where \(N\) is the number of samples, \(V\) is the vocabulary size, $y_{i,j}$ is the true probability of token \(j\) for sample \(i\), and $\hat{y}_{i,j}$ is the predicted probability.
 
 - **Perplexity**, calculated as the exponential of the average cross-entropy loss, represents how "surprised" the model is by test data. It is given by:
 
-    ```math
-    \text{Perplexity} = \exp\left(\frac{1}{N} \sum_{i=1}^{N} \sum_{j=1}^{V} y_{i,j} \log(\hat{y}_{i,j})\right)
-    ```
+```math
+\text{Perplexity} = \exp\left(\frac{1}{N} \sum_{i=1}^{N} \sum_{j=1}^{V} y_{i,j} \log(\hat{y}_{i,j})\right)
+```
 
 These metrics provide insights into the model's performance in predicting the next token in a sequence.
 
